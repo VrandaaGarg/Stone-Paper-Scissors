@@ -45,13 +45,18 @@ img {
     display: flex;
     justify-content: center;
     gap: 7vh;
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
 }
 .points{
     font-size: 12vh;
 }
 p{
     font-size: 4vh;
+}
+
+.result_msg{
+    margin-bottom: 10vh;
+    padding: 3vh;
 }
 .msg{
     height: 10vh;
@@ -61,4 +66,40 @@ p{
     border-radius: 1.5vh;
     font-size: 6vh;
     padding: 1vh;
+}
+
+@media (max-width:630px){
+h2{
+    font-size: 4vh;
+    line-height: 6vh;
+}
+
+    .choices{
+        gap: 2vh;
+        margin: 3vh;
+    }
+
+  img{
+    height: 20vh;
+  }
+
+  .choice{
+    height: 20vh;
+  }
+
+  .choice:hover{
+    outline: 2px solid black;
+  }
+   
+  .points{
+    font-size: 5vh;
+  }
+
+  .msg{
+    font-size: 4vh;
+  }
+
+  .result{
+    padding-bottom: 0;
+  }
 }
